@@ -1525,7 +1525,6 @@ p .counters {
 
   }
 
-<<<<<<< HEAD
   .bgcolerChange .inverted {
     background-color: black;
     box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
@@ -1536,8 +1535,8 @@ p .counters {
   .align-items-center {
     align-items: unset  !important;
 }
-=======
-  }
+
+
 /* service icon */
   .iconSize{
     font-size: 52px;
@@ -1547,7 +1546,7 @@ p .counters {
   .language-icon{
       display: flex;
       font-size: 20px;
+      color: white;
   }
 
   
->>>>>>> origin/avi
