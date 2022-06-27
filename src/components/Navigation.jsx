@@ -18,10 +18,14 @@ const Navigation = () => {
                  </h2>
             </div>
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          <div className='language-icon'>
+            <i className="bi bi-globe" ></i>
+            <h6 style={{ "paddingLeft": "10px" , "fontSize" : "20px"}}>ENG/MAR</h6>
+          </div>
+          {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="mdi mdi-menu"></span>
-          </button>
+          </button> */}
           </div>
       </nav>
     </div>

@@ -61,7 +61,7 @@ const Footer = () => {
                     <div class="col-md-12">
                         <div class="text-center text-muted">
                             <p class="mb-0 f-15">
-                                <script>document.write(new Date().getFullYear())</script> &copy; Xegal - Premium Landing Template by <a href="https://pichforest.com/" target="_blank" class="text-reset text-decoration-underline">Pichforest</a>
+                                <script>document.write(new Date().getFullYear())</script> &copy; Scrapa - Landing Compony <a href="https://pichforest.com/" target="_blank" class="text-reset text-decoration-underline">Pichforest</a>
                             </p>
                         </div>
                     </div>

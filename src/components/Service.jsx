@@ -23,7 +23,7 @@ const Service = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="service-box mt-4">
                             <div className="mb-4">
-                                <i className="pe-7s-headphones service-icon"></i>
+                                <i className="bi bi-headset iconSize"></i>
                             </div>
                             <div className="service-content">
                                 <h5>Awesome Support</h5>
@@ -38,10 +38,10 @@ const Service = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="service-box mt-4">
                             <div className="mb-4">
-                                <i className="pe-7s-tools service-icon"></i>
+                                <i className="bi bi-display iconSize"></i>
                             </div>
                             <div className="service-content">
-                                <h5>Solutions Business</h5>
+                                <h5>Business Solutions</h5>
                                 <p className="mb-4">There is now an abundance of readable dummy texts. These are usually used when a text is required.</p>
                                 <a href="#">Read more <span className="right-icon">&#8594;</span></a>
                             </div>
@@ -49,11 +49,11 @@ const Service = () => {
                         {/* <!--end service-box--> */}
                     </div>
                     {/* <!--end col--> */}
-
+                    
                     <div className="col-lg-4 col-md-6">
                         <div className="service-box mt-4">
                             <div className="mb-4">
-                                <i className="pe-7s-display1 service-icon"></i>
+                                <i className="bi bi-tools iconSize"></i>
                             </div>
                             <div className="service-content">
                                 <h5>24/7 Customer Support</h5>
@@ -63,12 +63,12 @@ const Service = () => {
                         </div>
                         {/* <!--end service-box--> */}
                     </div>
-                    {/* <!--end col--> */}
+
 
                     <div className="col-lg-4 col-md-6">
                         <div className="service-box mt-4">
                             <div className="mb-4">
-                                <i className="pe-7s-cup service-icon"></i>
+                                <i className="bi bi-trophy iconSize"></i>
                             </div>
                             <div className="service-content">
                                 <h5>Good Price</h5>
@@ -83,7 +83,7 @@ const Service = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="service-box mt-4">
                             <div className="mb-4">
-                                <i className="pe-7s-light service-icon"></i>
+                                <i className="bi bi-lightbulb iconSize"></i>
                             </div>
                             <div className="service-content">
                                 <h5>Branding Identity</h5>
