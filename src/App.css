@@ -37,7 +37,7 @@ html {
 .navbar {
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    padding: 20px 0px
+    padding: 20px 0px; 
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -92,7 +92,7 @@ html {
     }
 }
 
-.nav-sticky.navbar {
+/* .nav-sticky.navbar {
     background: #fff;
     padding: 15px 0px;
     margin-top: 0px;
@@ -101,7 +101,7 @@ html {
 }.nav-sticky.navbar #LogoText {
 color: black;
 
-}
+} */
 
 .nav-sticky .navbar-brand .logo-dark {
     display: inline-block
@@ -120,15 +120,11 @@ color: black;
     .navbar-light .navbar-nav .nav-item .nav-link:hover,
     .navbar-light .navbar-nav .nav-item .nav-link:active,
     .navbar-light .navbar-nav .nav-item .nav-link.active {
-        color: #fff !important
+        color: #fff
     }
 
     .navbar-light .phone-call .nav-link {
         color: #fff
-    }
-
-    .nav-sticky.navbar-light {
-        background: #fff
     }
 
     .nav-sticky.navbar-light .nav-item .nav-link {
@@ -1497,13 +1493,14 @@ p .counters {
   align-items: center;
 }
 #LogoText {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 28px;
         font-weight: 800;
     text-transform: uppercase;
     /* background: -webkit-linear-gradient(#eee, rgb(255, 254, 254)); */
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent */
+    background-color: red;
 }
 .btn-primary{
  background: #f0473e !important;
@@ -1522,8 +1519,34 @@ p .counters {
 #LogoText {
     font-size: 2rem;
   }
-  .navbar{
+  .bgcolerChange{
     background: #01212e;
-    
+    color : black !important;
 
   }
+
+  .bgcolerChange .inverted {
+    background-color: black;
+    box-shadow: 0 3px 5px 0.3px rgba(0, 0, 0, 0.1);
+    /* color : black; */
+
+  }
+
+  .align-items-center {
+    align-items: unset  !important;
+}
+
+
+/* service icon */
+  .iconSize{
+    font-size: 52px;
+    color: #f0473e;
+  }
+
+  .language-icon{
+      display: flex;
+      font-size: 20px;
+      color: green;
+  }
+
+  
