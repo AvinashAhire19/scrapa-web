@@ -23,7 +23,7 @@ const Navigation = () => {
      data-aos-duration="1000" id="navbar" className="navbar navbar-expand-lg fixed-top sticky bgcolerChange">
           <div className='container'>
           <a className="navbar-brand" href="#">
-            <div  data-aos-anchor-placement="top-bottom" className="logo logo-light">
+            <div data-aos='fade-right' data-aos-anchor-placement="top-bottom" className="logo logo-light">
                  <h2 id="LogoText">
                     <span style={{ "background": "#f0473e","border-radius": "10px"}}> SW </span>
                     <span>S</span>crapa
@@ -31,10 +31,14 @@ const Navigation = () => {
                  </h2>
             </div>
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          <div className='language-icon'>
+            <i className="bi bi-globe" ></i>
+            <h6 style={{ "paddingLeft": "10px" , "fontSize" : "20px"}}>ENG/MAR</h6>
+          </div>
+          {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="mdi mdi-menu"></span>
-          </button>
+          </button> */}
           </div>
       </nav>
     </div>
