@@ -10,8 +10,8 @@ const FormSection = () => {
               <section className="bg-home4" id="home">
             <div className="bg-overlay"></div>
             <div className="container">
-                <div  className="row align-items-center">
-                    <div  data-aos='zoom-in-down' className="col-lg-6">
+                <div  className="row align-items-center" >
+                    <div className="col-lg-6">
                         <h1 className="4 mb-4">       Scrap your vehicle in environment 
                                friendly way with Scrapa. 
                              <span className="text-secondary fw-medium">The Best Entrepreneur.</span></h1>

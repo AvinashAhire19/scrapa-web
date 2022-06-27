@@ -4,10 +4,23 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // 
 const Navigation = () => {
     AOS.init();
-
+    var className = "inverted";
+    var scrollTrigger = 20;
+    
+    window.onscroll = function() {
+      // We add pageYOffset for compatibility with IE.
+      if (window.scrollY >= scrollTrigger || window.pageYOffset >= scrollTrigger) {
+        document.getElementsByClassName(".bgcolerChange").classList.add(className);
+      } else {
+        document.getElementsByClassName(".bgcolerChange").classList.remove(className);
+      }
+    };
+    
   return (
     <div  >
-      <nav id="navbar" className="navbar navbar-expand-lg fixed-top sticky">
+      <nav data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000" id="navbar" className="navbar navbar-expand-lg fixed-top sticky bgcolerChange">
           <div className='container'>
           <a className="navbar-brand" href="#">
             <div  data-aos-anchor-placement="top-bottom" className="logo logo-light">
