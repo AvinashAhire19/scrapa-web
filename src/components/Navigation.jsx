@@ -10,7 +10,7 @@ const Navigation = () => {
       <nav id="navbar" className="navbar navbar-expand-lg fixed-top sticky">
           <div className='container'>
           <a className="navbar-brand" href="#">
-            <div data-aos='fade-right' data-aos-anchor-placement="top-bottom" className="logo logo-light">
+            <div  data-aos-anchor-placement="top-bottom" className="logo logo-light">
                  <h2 id="LogoText">
                     <span style={{ "background": "#f0473e","border-radius": "10px"}}> SW </span>
                     <span>S</span>crapa
