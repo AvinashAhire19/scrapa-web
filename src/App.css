@@ -1531,11 +1531,13 @@ p .counters {
   .iconSize{
     font-size: 52px;
     color: #f0473e;
+
   }
 
   .language-icon{
       display: flex;
       font-size: 20px;
+      color: red;
   }
 
   
