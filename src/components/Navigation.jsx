@@ -14,7 +14,6 @@ const Navigation = () => {
                  <h2 id="LogoText">
                     <span style={{ "background": "#f0473e","border-radius": "10px"}}> SW </span>
                     <span>S</span>crapa
-                    <span>W</span>holesaller
                  </h2>
             </div>
           </a>
