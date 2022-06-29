@@ -14,7 +14,7 @@ const FormSection = () => {
                     <div  data-aos='zoom-in-down' className="col-lg-6">
                         <h1 className="4 mb-4">       Scrap your vehicle in environment 
                                friendly way with Scrapa. 
-                             <span className="text-secondary fw-medium">The Best Entrepreneur.</span></h1>
+                             <span className="text-color fw-medium">The Best Entrepreneur.</span></h1>
                             <p className="text-muted fs-17">Instant Offer | Prompt Pick-up | Hassle-free end-to-end service | Follows all legal compliances.</p>
                         <button className="btn btn-primary mt-4">Learn More <span
                                 className="ms-2 right-icon">&#8594;</span></button>

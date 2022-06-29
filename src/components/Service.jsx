@@ -11,7 +11,7 @@ const Service = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-6 col-md-8">
                         <div className="text-center mb-lg-5 mb-4">
-                            <h3>Our <span className="text-primary">Services</span></h3>
+                            <h3>Our <span className="text-color">Services</span></h3>
                             <p className="text-muted">You can combine all the Xegal templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
                         </div>
                     </div>
